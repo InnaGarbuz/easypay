@@ -1,0 +1,377 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  -webkit-font-smoothing: antialised;
+  margin: 0;
+  padding: 0; }
+
+ul,
+li {
+  list-style-type: none; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+section {
+  padding: 80px 0; }
+
+.padd {
+  padding: 0; }
+
+header {
+  position: relative;
+  width: 100%;
+  height: 480px;
+  background-position: 50 50; }
+  header .header_two_fon {
+    position: relative;
+    width: 100%;
+    top: 15px;
+    height: 440px; }
+    header .header_two_fon .logo img {
+      width: 150px;
+      margin-left: 15px;
+      z-index: 9999999999999; }
+    header .header_two_fon .registration button {
+      padding: 10px 10px;
+      background-color: transparent;
+      border: 4px solid #fff;
+      color: #fff;
+      margin: 0 5px;
+      font-size: 16px;
+      float: right;
+      font-weight: 500px; }
+    header .header_two_fon .registration button:hover {
+      background: #fff;
+      color: #000;
+      transition: 2s; }
+    header .header_two_fon .registration .password_button button {
+      background-color: transparent;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      float: right;
+      font-weight: 500px; }
+    header .header_two_fon .registration .password_button button:hover {
+      border-bottom: 1px solid #fff; }
+    header .header_two_fon .language {
+      text-align: center; }
+      header .header_two_fon .language ul {
+        display: block; }
+        header .header_two_fon .language ul li {
+          display: inline-block; }
+          header .header_two_fon .language ul li a {
+            color: #000;
+            font-weight: 800;
+            padding: 10px 20px; }
+          header .header_two_fon .language ul li a:hover, header .header_two_fon .language ul li .active {
+            padding: 10px 20px;
+            background-color: transparent;
+            border: 4px solid #fff;
+            color: #fff;
+            font-weight: 800; }
+          header .header_two_fon .language ul li .active:hover {
+            color: #000; }
+  header .text_header {
+    position: absolute;
+    text-align: center;
+    top: 38%;
+    color: #000;
+    left: 30%;
+    font-size: 24px; }
+    header .text_header h1 {
+      margin: 0; }
+      header .text_header h1 span {
+        color: #00aeef; }
+    header .text_header p {
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #fff; }
+      header .text_header p a {
+        color: #fff;
+        border-bottom: 2px solid #f7941e;
+        font-size: 24px; }
+      header .text_header p a:hover {
+        border: none;
+        color: #f7941e; }
+
+.amenities {
+  text-align: center; }
+  .amenities .image {
+    margin: 0 0 20px; }
+  .amenities .text {
+    color: #393939;
+    font-weight: 500; }
+    .amenities .text span {
+      font-weight: 800; }
+
+.order_card {
+  margin: 80px 0;
+  text-align: center; }
+  .order_card button {
+    background-color: transparent;
+    padding: 20px 50px;
+    margin: 0 0 50px;
+    border: 4px solid #f7941e;
+    color: #00aeef;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800; }
+  .order_card button:hover {
+    border: 4px solid #00aeef;
+    color: #f7941e;
+    transition: 1s; }
+  .order_card p {
+    font-size: 16px;
+    margin: 0; }
+    .order_card p span {
+      font-size: 30px;
+      font-weight: 800; }
+
+.payments {
+  margin: 0 10px; }
+  .payments h1 {
+    text-align: center; }
+    .payments h1 span {
+      color: #f7941e; }
+  .payments .content {
+    margin: 50px 0; }
+  .payments p {
+    color: #000;
+    font-size: 13px; }
+  .payments .mobi, .payments .roaming {
+    text-align: center; }
+  .payments .roaming p {
+    padding: 0 10px; }
+
+.main_bg {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  padding: 10px 0; }
+  .main_bg .main_img {
+    position: relative;
+    width: 100%;
+    height: 450px; }
+    .main_bg .main_img h1 {
+      text-align: center;
+      color: #fff; }
+    .main_bg .main_img span {
+      color: #00aeef; }
+    .main_bg .main_img .block_one h2 {
+      text-align: right;
+      text-transform: uppercase;
+      color: #00aeef; }
+    .main_bg .main_img .block_one ul li {
+      padding: 10px 0 10px 450px;
+      color: #000;
+      font-weight: 800;
+      text-align: left;
+      font-size: 18px; }
+    .main_bg .main_img .block_two h2 {
+      text-align: right;
+      text-transform: uppercase;
+      color: #f7941e; }
+    .main_bg .main_img .block_two ul li {
+      color: #000;
+      font-weight: 800;
+      text-align: left;
+      font-size: 18px;
+      padding: 15px 0; }
+
+.to_card {
+  text-align: center;
+  margin: 50px 0; }
+  .to_card h1 {
+    text-transform: uppercase;
+    text-align: center; }
+
+.card_ul {
+  text-align: center; }
+  .card_ul ul {
+    text-align: center; }
+    .card_ul ul li {
+      background: url(../img/img1.png) no-repeat;
+      padding: 12px 64px;
+      margin: 0;
+      font-size: 18px;
+      text-align: left; }
+      .card_ul ul li span {
+        font-weight: bold;
+        color: #000; }
+      .card_ul ul li p {
+        margin: 0;
+        font-style: italic; }
+
+.time_to_card {
+  margin: 50px 0;
+  text-align: center; }
+  .time_to_card p {
+    padding: 10px 200px;
+    font-weight: 800px;
+    font-size: 16px; }
+
+footer {
+  padding: 20px;
+  font-size: 10px;
+  text-align: center; }
+  footer .menu ul, footer .social ul {
+    display: block; }
+    footer .menu ul li, footer .social ul li {
+      display: inline-block;
+      margin: 10px; }
+  footer p {
+    text-align: center;
+    color: #999; }
+  footer .card {
+    float: right; }
+
+.form-register {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #8c8c8c;
+  z-index: 1;
+  padding: 20px; }
+  .form-register .text_header {
+    text-align: center;
+    top: 40%;
+    color: #000;
+    left: 30%;
+    font-size: 20px; }
+    .form-register .text_header h1 {
+      margin: 0; }
+      .form-register .text_header h1 span {
+        color: #00aeef; }
+    .form-register .text_header p {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #f7941e; }
+  .form-register .close button {
+    padding: 10px 20px;
+    border: 4px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 24px;
+    float: right;
+    font-weight: 800px; }
+  .form-register .close button:hover {
+    border: 4px solid #000; }
+  .form-register form {
+    position: absolute;
+    left: 35%;
+    top: 30%; }
+    .form-register form #name,
+    .form-register form #password {
+      width: 100%;
+      height: 80px;
+      background-color: transparent;
+      margin-bottom: 25px;
+      text-align: center;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 800;
+      border: 4px solid #fff; }
+    .form-register form button {
+      background: none;
+      border: 4px solid #000;
+      width: 100%;
+      height: 80px;
+      color: #fff;
+      font-size: 18px;
+      cursor: pointer;
+      transition: 0.6s;
+      font-weight: 800; }
+    .form-register form button:hover {
+      border: 4px solid #fff;
+      color: #000;
+      font-weight: 800; }
+
+.form-card {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #8c8c8c;
+  z-index: 1;
+  padding: 20px; }
+  .form-card .text_header {
+    text-align: center;
+    top: 40%;
+    color: #000;
+    left: 30%;
+    font-size: 20px; }
+    .form-card .text_header h1 {
+      margin: 0; }
+      .form-card .text_header h1 span {
+        color: #00aeef; }
+    .form-card .text_header p {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #f7941e; }
+  .form-card .close button {
+    padding: 10px 20px;
+    border: 4px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 24px;
+    float: right;
+    font-weight: 800px; }
+  .form-card .close button:hover {
+    border: 4px solid #000; }
+  .form-card form {
+    position: absolute;
+    left: 35%;
+    top: 30%; }
+    .form-card form #name,
+    .form-card form #telephone, .form-card form #inn {
+      width: 60%;
+      height: 80px;
+      background-color: transparent;
+      margin-bottom: 25px;
+      text-align: center;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 800;
+      border: 4px solid #fff; }
+    .form-card form button {
+      background: none;
+      border: 4px solid #000;
+      width: 60%;
+      height: 80px;
+      color: #fff;
+      font-size: 18px;
+      cursor: pointer;
+      transition: 0.6s;
+      font-weight: 800; }
+    .form-card form button:hover {
+      border: 4px solid #fff;
+      color: #000;
+      font-weight: 800; }
+
+.scrollup {
+  width: 40px;
+  height: 40px;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  display: none;
+  text-indent: -9999px;
+  background: url("../img/icon_top.png") no-repeat;
+  z-index: 999999; }
+
+/*# sourceMappingURL=main.css.map */

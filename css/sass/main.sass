@@ -1,0 +1,389 @@
+@import "bourbon/bourbon"
+
+body
+	font-family: "Raleway", sans-serif
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.42857
+	-webkit-font-smoothing: antialised
+	margin: 0
+	padding: 0
+
+ul,
+li
+	list-style-type: none
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+section
+	padding:  80px 0
+.padd
+	padding: 0
+header
+	position: relative
+	width: 100%
+	height: 480px
+	background-position: 50 50
+	.header_two_fon
+		position: relative
+		width: 100%
+		top: 15px
+		height: 440px
+		.logo
+			img
+				width: 150px
+				margin-left: 15px
+				z-index: 9999999999999
+		.registration
+			button
+				padding: 10px 10px
+				background-color: transparent
+				border: 4px solid #fff
+				color: #fff
+				margin: 0 5px
+				font-size: 16px
+				float: right
+				font-weight: 500px
+			button:hover
+				background: #fff
+				color: #000
+				transition: 2s
+			.password_button
+				button
+					background-color: transparent
+					border: none
+					color: #fff
+					font-size: 16px
+					float: right
+					font-weight: 500px
+				button:hover
+					border-bottom: 1px solid #fff
+
+		.language
+			text-align: center
+			ul
+				display: block
+				li
+					display: inline-block
+					a
+						color: #000
+						font-weight: 800
+						padding: 10px 20px
+					a:hover, .active
+						padding: 10px 20px
+						background-color: transparent
+						border: 4px solid #fff
+						color: #fff
+						font-weight: 800
+					.active:hover
+						color: #000
+
+	.text_header
+		position: absolute
+		text-align: center
+		top: 38%
+		color: #000
+		left: 30%
+		font-size: 24px
+		h1
+			margin: 0
+			span
+				color: #00aeef
+		p
+			font-size: 18px
+			text-transform: uppercase
+			font-weight: 700
+			color: #fff
+			a
+				color: #fff
+				border-bottom: 2px solid #f7941e
+				font-size: 24px
+			a:hover
+				border: none
+				color: #f7941e
+
+.amenities
+	text-align: center
+	.image
+		margin: 0 0 20px
+	.text
+		color: #393939
+		font-weight: 500
+		span
+			font-weight: 800
+.order_card
+	margin: 80px 0
+	text-align: center
+	button
+		background-color: transparent
+		padding: 20px 50px
+		margin: 0 0 50px
+		border: 4px solid #f7941e
+		color: #00aeef
+		font-size: 18px
+		text-transform: uppercase
+		font-weight: 800
+	button:hover
+		border: 4px solid #00aeef
+		color: #f7941e
+		transition: 1s
+	p
+		font-size: 16px
+		margin: 0
+		span
+			font-size: 30px
+			font-weight: 800
+.payments
+	margin: 0 10px
+	h1
+		text-align: center
+		span
+			color: #f7941e
+	.content
+		margin: 50px 0
+	p
+		color: #000
+		font-size: 13px
+
+	.mobi, .roaming
+		text-align: center
+	.roaming
+		p
+			padding: 0  10px
+.main_bg
+	position: relative
+	width: 100%
+	height: 500px
+	padding: 10px 0
+	.main_img
+		position: relative
+		width: 100%
+		height: 450px
+		h1
+			text-align: center
+			color: #fff
+		span
+			color: #00aeef
+		.block_one
+			h2
+				text-align: right
+				text-transform: uppercase
+				color: #00aeef
+			ul
+				li
+					padding: 10px 0 10px 450px
+					color: #000
+					font-weight: 800
+					text-align: left
+					font-size: 18px
+		.block_two
+			h2
+				text-align: right
+				text-transform: uppercase
+				color: #f7941e
+			ul
+				li
+					color: #000
+					font-weight: 800
+					text-align: left
+					font-size: 18px
+					padding: 15px 0
+.to_card
+	text-align: center
+	margin: 50px 0
+	h1
+		text-transform: uppercase
+		text-align: center
+.card_ul
+	text-align: center
+	ul
+		// list-style-image: url(../img/img1.png)
+		text-align: center
+		li
+			background:  url(../img/img1.png) no-repeat
+			padding: 12px 64px
+			margin: 0
+			font-size: 18px
+			text-align: left
+			span
+				font-weight: bold
+				color: #000
+			p
+				margin: 0
+				font-style: italic
+
+
+.time_to_card
+	margin: 50px 0
+	text-align: center
+	p
+		padding: 10px 200px
+		font-weight: 800px
+		font-size: 16px
+
+footer
+	padding: 20px
+	font-size: 10px
+	text-align: center
+	.menu, .social
+		ul
+			display: block
+			li
+				display: inline-block
+				margin: 10px
+	p
+		text-align: center
+		color: #999
+
+	.card
+		float: right
+
+
+.form-register,
+	display: none
+	position: fixed
+	width: 100%
+	height: 100%
+	background: #8c8c8c
+	z-index: 1
+	padding: 20px
+	.text_header
+		text-align: center
+		top: 40%
+		color: #000
+		left: 30%
+		font-size: 20px
+		h1
+			margin: 0
+			span
+				color: #00aeef
+		p
+			font-size: 16px
+			text-transform: uppercase
+			font-weight: 700
+			color: #f7941e
+	.close
+		button
+			padding: 10px 20px
+			border: 4px solid #fff
+			background-color: transparent
+			color: #fff
+			font-size: 24px
+			float: right
+			font-weight: 800px
+		button:hover
+			border: 4px solid #000
+	form
+		position: absolute
+		left: 35%
+		top: 30%
+		#name,
+		#password,
+			width: 100%
+			height: 80px
+			background-color: transparent
+			margin-bottom: 25px
+			text-align: center
+			color: #fff
+			font-size: 18px
+			font-weight: 800
+			border: 4px solid #fff
+		button
+			background: none
+			border: 4px solid #000
+			width: 100%
+			height: 80px
+			color: #fff
+			font-size: 18px
+			cursor: pointer
+			transition: .6s
+			font-weight: 800
+		button:hover
+			border: 4px solid #fff
+			color: #000
+			font-weight: 800
+
+
+.form-card
+	display: none
+	position: fixed
+	width: 100%
+	height: 100%
+	background: #8c8c8c
+	z-index: 1
+	padding: 20px
+	.text_header
+		text-align: center
+		top: 40%
+		color: #000
+		left: 30%
+		font-size: 20px
+		h1
+			margin: 0
+			span
+				color: #00aeef
+		p
+			font-size: 16px
+			text-transform: uppercase
+			font-weight: 700
+			color: #f7941e
+	.close
+		button
+			padding: 10px 20px
+			border: 4px solid #fff
+			background-color: transparent
+			color: #fff
+			font-size: 24px
+			float: right
+			font-weight: 800px
+		button:hover
+			border: 4px solid #000
+	form
+		position: absolute
+		left: 35%
+		top: 30%
+		#name,
+		#telephone, #inn
+			width: 60%
+			height: 80px
+			background-color: transparent
+			margin-bottom: 25px
+			text-align: center
+			color: #fff
+			font-size: 18px
+			font-weight: 800
+			border: 4px solid #fff
+		button
+			background: none
+			border: 4px solid #000
+			width: 60%
+			height: 80px
+			color: #fff
+			font-size: 18px
+			cursor: pointer
+			transition: .6s
+			font-weight: 800
+		button:hover
+			border: 4px solid #fff
+			color: #000
+			font-weight: 800
+
+.scrollup
+	width: 40px
+	height: 40px
+	opacity: 0.8
+	position: fixed
+	bottom: 50px
+	right: 50px
+	display: none
+	text-indent: -9999px
+	background: url('../img/icon_top.png') no-repeat
+	z-index: 999999
+
+
